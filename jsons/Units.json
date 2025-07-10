@@ -2,6 +2,7 @@
 	{
 		"name": "Defender of Atlantis",
 		"unitType": "Sword",
+		"uniqueTo": "Atlantis",
 		"movement": 4,
 		"strength": 10,
 		"cost": 1,
