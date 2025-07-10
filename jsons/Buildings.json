@@ -1,25 +1,38 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Atlantean Monument",
+		"replaces": "Monument",
+		"uniqueTo": "Atlantis",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured", "[+1 Faith] from [Coast] tiles [in this city]",
+			    "[+2 Faith] from [Ocean] tiles [in this city]", "New [Military] units start with [10] XP [in this city]"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Training Temple",
+		"replaces": "Shrine",
+		"uniqueTo": "Atlantis",
+		"faith": 1,
+		"science": 1,
+		"culture": 1,
+		"cost": 50,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>", "New [Military] units start with [20] XP [in this city]"]
+	},
+	{
+		"name": "Central Fishery",
+		"replaces": "Lighthouse",
+		"uniqueTo": "Atlantis",
+		"science": 1,
+		"culture": 1,
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+2 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
 ]
