@@ -1,17 +1,16 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"name": "Defender of Atlantis",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 10,
+		"cost": 1,
+		"uniques" : ["Limited to [1] per Civilization", "Can carry [2] [Wounded] units", "Double movement in [Fresh Water]",
+			     "Double movement in [Coast]", "Double movement in [Ocean]", "[1] Movement point cost to disembark", "[1] Movement point cost to embark",
+			     "[+15]% Strength bonus for [Military] units within [3] tiles", "Can instantly construct a [Fort] improvement <for all movement>",
+			     "[+50]% Strength <upon discovering [Bronze Working] technology>", "[+120]% Strength <upon discovering [Iron Working] technology>",
+			     "[+120]% Strength <upon discovering [Steel] technology>", "[+120]% Strength <upon discovering [Gunpowder] technology>",
+			     "[+120]% Strength <upon discovering [Rifling] technology>", "[+120]% Strength <upon discovering [Dynamite] technology>"],
+		"attackSound": "nonmetalhit"
 	}
-]
+		]
