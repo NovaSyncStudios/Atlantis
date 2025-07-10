@@ -2,10 +2,10 @@
 	{
 		"name": "Defender of Atlantis",
 		"unitType": "Sword",
-		"movement": 3,
+		"movement": 4,
 		"strength": 10,
 		"cost": 1,
-		"uniques" : ["Limited to [1] per Civilization", "Can carry [2] [Wounded] units", "Double movement in [Fresh Water]",
+		"uniques" : ["Limited to [1] per Civilization", "Can carry [2] [Civilian] units", "Double movement in [Fresh Water]",
 			     "Double movement in [Coast]", "Double movement in [Ocean]", "[1] Movement point cost to disembark", "[1] Movement point cost to embark",
 			     "[+15]% Strength bonus for [Military] units within [3] tiles", "Can instantly construct a [Fort] improvement <for all movement>",
 			     "[+50]% Strength <upon discovering [Bronze Working] technology>", "[+120]% Strength <upon discovering [Iron Working] technology>",
